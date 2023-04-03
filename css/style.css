@@ -20,6 +20,7 @@ body{
     font-size: 24px;
     font-weight:700px;
 }
+/* это ужасно, поменяйб это иконка, на англ вроде будет cross */
 .krestik{
     border: none;
     background-color: #fff;  
@@ -41,6 +42,7 @@ body{
     height:16px;
     background-repeat: no-repeat;
 }
+/* не лорем а text */
 .lorem{
     margin-bottom: 32px;
 }
@@ -51,18 +53,26 @@ body{
     background-color: #3E56AA;
     color:white;
     padding:10px 20px;
+    /* одинаковое */
     border: none;
+    /* одинаковое */
     border-radius: 4px;
+    /* одинаковое */
     margin-right: 12px;
 }
 .btn-white{
+    /* одинаковое */
     border:none;
+    /* одинаковое */
     border-radius: 4px;
+    /* одинаковое */
     padding:10px 20px;
 }
 .link {
     display:flex;
-    justify-self: right;
+    /* расширяет элемент, а именно ссылку на всю ширину контейнера */
+    flex-grow: 1;
+    justify-content: flex-end;
     align-items: center;
     text-decoration: none;        
 }
